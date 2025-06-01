@@ -16,7 +16,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
-const BASE_URL = process.env.BASE_URL || "http://localhost:8080";
+const BASE_URL = process.env.BASE_URL || "https://login1-cs8s.onrender.com";
 
 // --- NUEVO: Muestra el formulario web ---
 export const resetPasswordPage = (req, res) => {
